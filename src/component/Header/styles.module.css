@@ -20,7 +20,7 @@
 
 .head1 {
     color: #fff;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 200;
     font-family: inherit;
 }
@@ -29,7 +29,7 @@
     width: max-content;
     background-color: #fff;
     color: rgba(255, 39, 89, 0.75);
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 600;
     font-family: inherit;
     margin: 1rem auto;
@@ -66,6 +66,15 @@
 }
 
 @media screen and (min-width: 480px) {
+
+    .head1 {
+        font-size: 1.25rem;
+    }
+
+    .head2 {
+        font-size: 1.75rem;
+    }
+
     .imgDiv {
         width: 70%;
     }
