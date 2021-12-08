@@ -19,7 +19,7 @@ const Header = () => {
                 </div>
             </div>
         </div>
-        <img className={classes.imgDiv} src={sliderImg} alt='Not Found'/>
+        <img className={classes.imgDiv} src={sliderImg} alt='Not Found' />
     </div>;
 }
 

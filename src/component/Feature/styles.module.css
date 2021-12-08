@@ -10,6 +10,7 @@
     color: #fff;
     font-size: 1.75rem;
     padding-bottom: 1rem;
+    font-weight: 300;
 }
 
 .heading span {
@@ -115,7 +116,7 @@
         height: auto;
         max-height: 450px;
     }
-    
+
 }
 
 @media screen and (min-width: 768px) {
@@ -135,7 +136,7 @@
 
     .icon_div {
         width: 4rem;
-        height:4rem;
+        height: 4rem;
     }
 
     .icon_parent {
@@ -172,14 +173,14 @@
         flex-direction: column;
     }
 
-    
+
     .listContainer {
         margin: 2rem;
     }
 
     .icon_div {
         width: 4.5rem;
-        height:4.5rem;
+        height: 4.5rem;
     }
 
     .icon_parent {
@@ -191,7 +192,7 @@
         display: flex;
     }
 
-    .afterImgDummyList{
+    .afterImgDummyList {
         display: none;
     }
 

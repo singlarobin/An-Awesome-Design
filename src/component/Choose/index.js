@@ -11,10 +11,10 @@ const Choose = () => {
                 <div className={classes.text}> et cupidatat aliquip id elit tempor</div>
                 <ArrowDownIcon />
             </div>
-                <div className={classes.midContainer}>
-                    <div className={classes.subHeading}>voluptate enim occaecat fugiat</div>
-                    <div className={classes.subText}>Lorem ipsum laborum qui cupidatat aute et mollit pariatur consequat eu id aute non nisi excepteur fugiat.</div>
-                </div>
+            <div className={classes.midContainer}>
+                <div className={classes.subHeading}>voluptate enim occaecat fugiat</div>
+                <div className={classes.subText}>Lorem ipsum laborum qui cupidatat aute et mollit pariatur consequat eu id aute non nisi excepteur fugiat.</div>
+            </div>
             <div className={classes.topContainer}>
                 <div className={classes.text}>dolore ipsum sint cupidatat amet</div>
                 <ArrowDownIcon />

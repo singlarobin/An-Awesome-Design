@@ -1,6 +1,6 @@
 .container {
     width: 100vw;
-    background-image: linear-gradient(to right top, rgba(112, 8, 119, 0.75), rgba(255, 39, 89, 0.75)), url('../../assets/images/hero-banner.jpg') ;
+    background-image: linear-gradient(to right top, rgba(112, 8, 119, 0.75), rgba(255, 39, 89, 0.75)), url('../../assets/images/hero-banner.jpg');
     background-size: cover;
     display: flex;
     flex-direction: column;
