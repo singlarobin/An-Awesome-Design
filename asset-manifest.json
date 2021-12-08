@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/an-awesome-design/static/css/main.41142fa0.chunk.css",
+    "main.js": "/an-awesome-design/static/js/main.559a2c3c.chunk.js",
+    "main.js.map": "/an-awesome-design/static/js/main.559a2c3c.chunk.js.map",
+    "runtime-main.js": "/an-awesome-design/static/js/runtime-main.d520776a.js",
+    "runtime-main.js.map": "/an-awesome-design/static/js/runtime-main.d520776a.js.map",
+    "static/js/2.7995c276.chunk.js": "/an-awesome-design/static/js/2.7995c276.chunk.js",
+    "static/js/2.7995c276.chunk.js.map": "/an-awesome-design/static/js/2.7995c276.chunk.js.map",
+    "static/js/3.b1d4c50f.chunk.js": "/an-awesome-design/static/js/3.b1d4c50f.chunk.js",
+    "static/js/3.b1d4c50f.chunk.js.map": "/an-awesome-design/static/js/3.b1d4c50f.chunk.js.map",
+    "index.html": "/an-awesome-design/index.html",
+    "static/css/main.41142fa0.chunk.css.map": "/an-awesome-design/static/css/main.41142fa0.chunk.css.map",
+    "static/js/2.7995c276.chunk.js.LICENSE.txt": "/an-awesome-design/static/js/2.7995c276.chunk.js.LICENSE.txt",
+    "static/media/styles.module.css": "/an-awesome-design/static/media/img-post-one.d1d3fc3b.jpg",
+    "static/media/bg-tilted.cd0f2ad1.png": "/an-awesome-design/static/media/bg-tilted.cd0f2ad1.png",
+    "static/media/phone-img.7bb11fe3.png": "/an-awesome-design/static/media/phone-img.7bb11fe3.png",
+    "static/media/slider-img.796a3882.png": "/an-awesome-design/static/media/slider-img.796a3882.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d520776a.js",
+    "static/js/2.7995c276.chunk.js",
+    "static/css/main.41142fa0.chunk.css",
+    "static/js/main.559a2c3c.chunk.js"
+  ]
+}
