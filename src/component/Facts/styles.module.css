@@ -1,0 +1,120 @@
+.container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0rem;
+    box-shadow: 0px 0px 2px #9f9d9d;
+}
+
+.header {
+    font-size: 1.75rem;
+    color: #000;
+}
+
+.header span {
+    font-weight: 600;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 30vw);
+    gap: 3rem;
+    justify-content: center;
+    text-align: center;
+    background: #fff;
+    padding: 3rem 0rem 1rem;
+}
+
+.subContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    border: double 3px transparent;
+    background-image: linear-gradient(white, white), linear-gradient(to right top, #700877, #ff2759);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.inner {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 1px solid #808080;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-size: 1.25rem;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 0.15rem;
+}
+
+.text {
+    font-size: 0.75rem;
+    color: #000;
+}
+
+.iconDiv {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background: var(--pink-shade);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -1.5rem;
+    padding: 0.25rem 0rem 0rem 0.25rem;
+    box-sizing: border-box;
+}
+
+.downloadIcon {
+    padding: 0rem 0rem 0.25rem 0rem;
+}
+
+@media screen and (min-width: 480px) {
+    .content {
+        grid-template-columns: repeat(2, 20vw);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    .outer {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .inner {
+        width: 7rem;
+        height: 7rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .content {
+        grid-template-columns: repeat(4, 15vw);
+        padding: 4rem 0rem 2rem;
+    }
+}

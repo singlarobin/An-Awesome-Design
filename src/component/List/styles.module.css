@@ -1,0 +1,101 @@
+.container {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(2, 35vw);
+    gap: 2rem;
+    justify-content: center;
+    text-align: center;
+    background: #fff;
+    padding: 3rem 0rem;
+}
+
+.subContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bucketImg {
+    width: 2.8rem;
+    height: 2.8rem;
+}
+
+.signboardImg {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.humanImg {
+    width: 3rem;
+    height:2rem;
+}
+
+.trophyImg {
+    width: 2rem;
+    height: 2rem;
+}
+
+.heading {
+    font-size: 1rem;
+    color: #000;
+    font-weight: 600;
+    margin: 0.5rem auto;
+}
+
+.text {
+    font-size: 0.8rem;
+    color: rgb(155, 155, 155);
+    word-wrap: break-word;
+    line-height: 1.05rem;
+}
+
+@media screen and (min-width: 480px) {
+    .container {
+        grid-template-columns: repeat(2, 25vw);
+        gap: 3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .bucketImg {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .signboardImg {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .humanImg {
+        width: 3.5rem;
+        height:2.5rem;
+    }
+
+    .trophyImg {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .heading {
+        margin: 0.75rem auto;
+    }
+
+    .text {
+        line-height: 1.25rem;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        grid-template-columns: repeat(4, 20vw);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .content {
+        grid-template-columns: repeat(4, 15vw);
+    }
+}

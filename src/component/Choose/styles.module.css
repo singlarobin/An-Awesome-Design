@@ -1,0 +1,118 @@
+.container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0rem;
+}
+
+.imageDiv {
+    width: 100%;
+    height: auto;
+}
+
+.rightContainer {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background: #fff;
+}
+
+.heading {
+    font-size: 1.75rem;
+    margin: 1.5rem 0rem;
+}
+
+.heading span {
+    font-weight: 600;
+}
+
+.topContainer {
+    width: 70vw;
+    background: linear-gradient(to right, var(--purple-shade), var(--pink-shade));
+    /* font-size: 1rem; */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 0rem;
+    padding: 0.15rem 0.5rem;
+}
+
+.text {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.midContainer {
+    width: 70vw;
+    background: #fff;
+    border: 1px solid #d7d7d7;
+    border-top: double 3px transparent;
+    /* first gradient is for card background, second for border background */
+    background-image: linear-gradient(white,white), var(--gradient);
+    background-clip: padding-box, border-box;
+    box-shadow: 0px 0px 2px #d7d7d7;
+    margin: 0.5rem 0rem;
+    padding: 0.15rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* font-size: 1rem; */
+}
+
+.subHeading {
+    font-size: 0.8rem;
+    padding: 1rem 0.5rem;
+    color: var(--pink-shade);
+}
+
+.subText {
+    font-size: 0.75rem;
+    color: #808080;
+    padding: 0rem 0.5rem 1rem;
+    line-height: 1.05rem;
+}
+
+@media screen and (min-width: 480px){
+    .imageDiv {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .heading {
+        font-size: 2rem;
+    }
+
+    .rightContainer {
+        width: 50vw;
+        padding-left: 1rem;
+    }
+
+    .topContainer,
+    .midContainer {
+        width: 35vw;
+        max-width: 450px;
+    }
+
+    .text, .subHeading {
+        font-size: 1rem;
+    }
+
+    .subText {
+        font-size: 0.8rem;
+    }
+
+    .imageDiv {
+        width: 55%;
+    }
+}
